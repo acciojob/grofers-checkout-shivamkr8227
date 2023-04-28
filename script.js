@@ -8,7 +8,7 @@ const getSum = () => {
 	let totalp=0;
 	prices.forEach((price)=>{
 		totalp=totalp+parseInt(price.innerText);
-	};
+	});
 	const newRow=document.createElement("tr");
 	const newCell=document.createElement("td");
 	newCell.colSpan="2";
